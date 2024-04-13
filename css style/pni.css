@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+  }
+body{
+    font-family: 'Quicksand', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+h2{
+    color: #5e6f83;
+}
+
+h3{
+    color: #010101;
+}
+footer{
+    padding: 20px;
+    color: #010101;
+    background-color: #5e6f83;
+    text-align: center;
+    font-weight: bolder;
+}
+nav a{
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #010101;
+    position: relative;
+}
+nav a:hover{
+    font-weight: bold;
+}
+.profile header {
+    text-align: center;
+  }
+  .featured-image{
+      width: 100%;
+      max-height: 500px;
+      object-fit: cover;
+      object-position: center;
+      border-radius: 5%;
+  }
+  .profile img {
+    width: 200px;
+    
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(211, 23, 23, 0.2);
+    border-radius: 15px;
+   
+    padding: 20px;
+   
+  }
+  header {
+    text-align: center;
+    display: flex;
+  }
+  .jumbotron{
+      font-size: 20px;
+      padding: 60px;
+      background-color: #dbe4f5;
+      text-align: center;
+      color: #010101;
+  }
+  nav ul{
+    padding-inline: 2rem;
+    display: flex;
+    gap: 2rem;
+  }
+  nav li {
+    
+    list-style-type: none;
+  }
+nav{
+    background-color: #5e6f83;
+    padding: 20px;
+
+    position: sticky;
+    top: 0;
+}  
+main{
+    padding: 20px;
+   display: flex;
+   gap: 1,5rem;
+  }
+#content{
+    flex: 5;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1rem 2rem;
+}
+
+.foto {
+  height: 250px;
+  width: 250px;
+}
+
+.foto img {
+  width: 100%;
+    height: 100%;
+    object-fit:cover;
+    border-radius: 10%;
+}
+aside {
+   flex: 1;
+  }
+  header {
+    display: inline;
+    
+  }
+
+.biodta {
+  text-align: center;
+}
+.hosel {
+  text-align: 350px;
+  position: relative;
+  position: 3px;
+}
+
+  
+
+  
+  @media screen and (max-width: 1200px) {
+    main {
+      flex-flow: column nowrap;
+    }
+    main aside {
+      align-self: center;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    nav ul {
+      justify-content: center;
+    }
+    main aside {
+      align-self: stretch;
+    }
+  }
